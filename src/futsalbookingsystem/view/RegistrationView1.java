@@ -3,13 +3,13 @@ package futsalbookingsystem.view;
 
 import java.awt.Color;
 
-public class RegistrationView extends javax.swing.JFrame {
+public class RegistrationView1 extends javax.swing.JFrame {
 
-    public RegistrationView() {
+    public RegistrationView1() {
         initComponents();
     }
+   
 
-    
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -29,6 +29,8 @@ public class RegistrationView extends javax.swing.JFrame {
         jPasswordField1 = new javax.swing.JPasswordField();
         jPasswordField2 = new javax.swing.JPasswordField();
         jLabel1 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
 
         jTextField1.setText("jTextField1");
 
@@ -46,7 +48,7 @@ public class RegistrationView extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Registration");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 70, 310, 70));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 70, 310, 70));
 
         jButton3.setBackground(new java.awt.Color(217, 217, 217));
         jButton3.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
@@ -57,7 +59,7 @@ public class RegistrationView extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 490, 200, 40));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 490, 200, 40));
 
         jTextField4.setBackground(new java.awt.Color(217, 217, 217));
         jTextField4.setText("   Enter your full name");
@@ -75,7 +77,7 @@ public class RegistrationView extends javax.swing.JFrame {
                 jTextField4ActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 180, 300, 40));
+        getContentPane().add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 180, 300, 40));
 
         jTextField7.setBackground(new java.awt.Color(217, 217, 217));
         jTextField7.setText("   Phone Number");
@@ -93,7 +95,7 @@ public class RegistrationView extends javax.swing.JFrame {
                 jTextField7ActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField7, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 240, 300, 40));
+        getContentPane().add(jTextField7, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 240, 300, 40));
 
         jTextField8.setBackground(new java.awt.Color(217, 217, 217));
         jTextField8.setText("   Enter your email");
@@ -111,7 +113,7 @@ public class RegistrationView extends javax.swing.JFrame {
                 jTextField8ActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField8, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 300, 300, 40));
+        getContentPane().add(jTextField8, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 300, 300, 40));
 
         jPasswordField1.setBackground(new java.awt.Color(217, 217, 217));
         jPasswordField1.setText("   Enter your password");
@@ -129,7 +131,7 @@ public class RegistrationView extends javax.swing.JFrame {
                 jPasswordField1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 360, 300, 40));
+        getContentPane().add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 360, 300, 40));
 
         jPasswordField2.setBackground(new java.awt.Color(217, 217, 217));
         jPasswordField2.setText("   Confirm password");
@@ -142,75 +144,71 @@ public class RegistrationView extends javax.swing.JFrame {
                 jPasswordField2FocusLost(evt);
             }
         });
-        getContentPane().add(jPasswordField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 420, 300, 40));
+        getContentPane().add(jPasswordField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 420, 300, 40));
 
         jLabel1.setForeground(new java.awt.Color(217, 217, 217));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Backgroung-Registration.png"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1070, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1040, -1));
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/futsalbookingsystem/imagepicker/Screenshot 2025-05-22 144917.png"))); // NOI18N
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/futsalbookingsystem/imagepicker/Background.png"))); // NOI18N
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 970, 570));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void jPasswordField2FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jPasswordField2FocusLost
         // TODO add your handling code here:
-        SignIn SignInFrame = new SignIn(); 
-        SignInFrame.setVisible(true);
-        SignInFrame.pack();
-        SignInFrame.setLocationRelativeTo(null);
-        this.dispose();
-    }//GEN-LAST:event_jButton3ActionPerformed
+        if (jPasswordField2.getPassword().length == 0) {
+            jPasswordField2.setText("   Confirm password");
+            jPasswordField2.setEchoChar((char) 0); // Disable masking again
+            jPasswordField2.setForeground(Color.BLACK);
+        }
+    }//GEN-LAST:event_jPasswordField2FocusLost
 
-    private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
+    private void jPasswordField2FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jPasswordField2FocusGained
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField4ActionPerformed
-
-    private void jTextField7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField7ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField7ActionPerformed
-
-    private void jTextField8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField8ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField8ActionPerformed
+        if (jPasswordField2.getText().equals("   Confirm password")) {
+            jPasswordField2.setText(""); // Restore echoing (• is typical)
+            jPasswordField2.setForeground(Color.BLACK);
+        }
+    }//GEN-LAST:event_jPasswordField2FocusGained
 
     private void jPasswordField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPasswordField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jPasswordField1ActionPerformed
 
-    private void jTextField4FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField4FocusGained
+    private void jPasswordField1FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jPasswordField1FocusLost
         // TODO add your handling code here:
-        if (jTextField4.getText().equals("   Enter your full name"))
+        if (jPasswordField1.getPassword().length == 0) {
+            jPasswordField1.setText("   Enter your password");
+            jPasswordField1.setEchoChar((char) 0); // Disable masking again
+            jPasswordField1.setForeground(Color.BLACK);
+        }
+    }//GEN-LAST:event_jPasswordField1FocusLost
+
+    private void jPasswordField1FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jPasswordField1FocusGained
+        // TODO add your handling code here:
+        if (jPasswordField1.getText().equals("   Enter your password")) {
+            jPasswordField1.setText(""); // Restore echoing (• is typical)
+            jPasswordField1.setForeground(Color.BLACK);
+        }
+    }//GEN-LAST:event_jPasswordField1FocusGained
+
+    private void jTextField8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField8ActionPerformed
+
+    private void jTextField8FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField8FocusLost
+        // TODO add your handling code here:
+        if (jTextField8.getText().trim().isEmpty())
         {
-            jTextField4.setText("   ");
-            jTextField4.setForeground(new Color(0,0,0));
+            jTextField8.setText("   Enter your email");
+            jTextField8.setForeground(Color.BLACK);
         }
-    }//GEN-LAST:event_jTextField4FocusGained
-
-    private void jTextField4FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField4FocusLost
-        // TODO add your handling code here:
-        if (jTextField4.getText().trim().isEmpty())
-        {            
-            jTextField4.setText("   Enter your full name");
-            jTextField4.setForeground(Color.BLACK);
-        }
-    }//GEN-LAST:event_jTextField4FocusLost
-
-    private void jTextField7FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField7FocusGained
-        // TODO add your handling code here:
-        if (jTextField7.getText().equals("   Phone Number"))
-        {
-            jTextField7.setText("   ");
-            jTextField4.setForeground(new Color(0,0,0));
-        }
-    }//GEN-LAST:event_jTextField7FocusGained
-
-    private void jTextField7FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField7FocusLost
-        // TODO add your handling code here:
-        if (jTextField7.getText().trim().isEmpty())
-        {            
-            jTextField7.setText("   Phone Number");
-            jTextField7.setForeground(Color.BLACK);
-        }
-    }//GEN-LAST:event_jTextField7FocusLost
+    }//GEN-LAST:event_jTextField8FocusLost
 
     private void jTextField8FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField8FocusGained
         // TODO add your handling code here:
@@ -221,49 +219,58 @@ public class RegistrationView extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jTextField8FocusGained
 
-    private void jTextField8FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField8FocusLost
+    private void jTextField7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField7ActionPerformed
         // TODO add your handling code here:
-        if (jTextField8.getText().trim().isEmpty())
-        {            
-            jTextField8.setText("   Enter your email");
-            jTextField8.setForeground(Color.BLACK);
-        }
-    }//GEN-LAST:event_jTextField8FocusLost
+    }//GEN-LAST:event_jTextField7ActionPerformed
 
-    private void jPasswordField1FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jPasswordField1FocusGained
+    private void jTextField7FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField7FocusLost
         // TODO add your handling code here:
-        if (jPasswordField1.getText().equals("   Enter your password")) {
-            jPasswordField1.setText(""); // Restore echoing (• is typical)
-            jPasswordField1.setForeground(Color.BLACK);
+        if (jTextField7.getText().trim().isEmpty())
+        {
+            jTextField7.setText("   Phone Number");
+            jTextField7.setForeground(Color.BLACK);
         }
-    }//GEN-LAST:event_jPasswordField1FocusGained
+    }//GEN-LAST:event_jTextField7FocusLost
 
-    private void jPasswordField1FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jPasswordField1FocusLost
+    private void jTextField7FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField7FocusGained
         // TODO add your handling code here:
-        if (jPasswordField1.getPassword().length == 0) {
-            jPasswordField1.setText("   Enter your password");
-            jPasswordField1.setEchoChar((char) 0); // Disable masking again
-            jPasswordField1.setForeground(Color.BLACK);
+        if (jTextField7.getText().equals("   Phone Number"))
+        {
+            jTextField7.setText("   ");
+            jTextField7.setForeground(new Color(0,0,0));
         }
+    }//GEN-LAST:event_jTextField7FocusGained
 
-    }//GEN-LAST:event_jPasswordField1FocusLost
-
-    private void jPasswordField2FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jPasswordField2FocusGained
+    private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
         // TODO add your handling code here:
-        if (jPasswordField2.getText().equals("   Confirm password")) {
-            jPasswordField2.setText(""); // Restore echoing (• is typical)
-            jPasswordField2.setForeground(Color.BLACK);
-        }
-    }//GEN-LAST:event_jPasswordField2FocusGained
+    }//GEN-LAST:event_jTextField4ActionPerformed
 
-    private void jPasswordField2FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jPasswordField2FocusLost
+    private void jTextField4FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField4FocusLost
         // TODO add your handling code here:
-        if (jPasswordField2.getPassword().length == 0) {
-            jPasswordField2.setText("   Confirm password");
-            jPasswordField2.setEchoChar((char) 0); // Disable masking again
-            jPasswordField2.setForeground(Color.BLACK);
+        if (jTextField4.getText().trim().isEmpty())
+        {
+            jTextField4.setText("   Enter your full name");
+            jTextField4.setForeground(Color.BLACK);
         }
-    }//GEN-LAST:event_jPasswordField2FocusLost
+    }//GEN-LAST:event_jTextField4FocusLost
+
+    private void jTextField4FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField4FocusGained
+        // TODO add your handling code here:
+        if (jTextField4.getText().equals("   Enter your full name"))
+        {
+            jTextField4.setText("   ");
+            jTextField4.setForeground(new Color(0,0,0));
+        }
+    }//GEN-LAST:event_jTextField4FocusGained
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+        SignIn SignInFrame = new SignIn();
+        SignInFrame.setVisible(true);
+        SignInFrame.pack();
+        SignInFrame.setLocationRelativeTo(null);
+        this.dispose();
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -276,6 +283,8 @@ public class RegistrationView extends javax.swing.JFrame {
     private javax.swing.JFrame jFrame1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPasswordField jPasswordField1;
     private javax.swing.JPasswordField jPasswordField2;
